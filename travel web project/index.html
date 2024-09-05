@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- link css -->
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <title>Travel web </title>
+</head>
+<body>
+ <!-- header section start --> 
+  <header>
+      <div class="container">
+      <nav class="nav-parent">
+        <div id="menu-btn" class="fas fa-bars"onclick="bar()"></div>
+              <div class="nav-son">
+                   <a href="#"><i class="fas fa-paper-plane"data-aos="zoom-in-left"></i></a>
+                <h1 data-aos="zoom-in-left">Travel</h1>
+          </div>
+          
+          <div class="menu">
+              <ul class="untybed-item">
+                  <a href="#home"data-aos="zoom-in-left" data-aos-delay="300" id="active"><li></li>home</a>
+                  <a href="#about"data-aos="zoom-in-left" data-aos-delay="450"><li></li>about</a>
+                  <a href="#destination"data-aos="zoom-in-left" data-aos-delay="600"><li></li>destination</a>
+                  <a href="#gallery"data-aos="zoom-in-left" data-aos-delay="900"><li></li>gallery</a>
+                  <a href="#services"data-aos="zoom-in-left" data-aos-delay="750"><li></li>services</a>
+                  <a href="#blogs"data-aos="zoom-in-left" data-aos-delay="1150"><li></li>blogs</a>
+              </ul>
+          </div>
+
+          <div class="button"data-aos="zoom-in-left">
+            <button>Book Now</button>
+          </div>
+       
+
+</div>
+          
+       
+      </nav>
+</div>
+  </header>
+ <!--header section end  -->
+
+ <!-- home section start -->
+   <section class="container" id = 'home'>
+       <div class="home">
+           <div class="home-son">
+           <h1 data-aos="fade-up" data-aos-delay="150">follow us</h1>
+           <h2 data-aos="fade-up" data-aos-delay="300">to the unknown</h2>
+           <p data-aos="fade-up" data-aos-delay="450">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolorem, autem modi tempora odit numquam ex accusantium error sint voluptate expedita magni natus dolorum. Quia, dolor? Ipsa pariatur.</p>
+              <div class="button" data-aos="fade-up" data-aos-delay="600">
+              <button>Book Now</button>
+            </div>
+        </div>
+       </div>
+
+   </section>
+ <!-- home section end -->
+
+ <!-- book section start -->  
+   <section class="container" id="book">
+     <div class="book-parent">
+       <div class="book-son" data-aos="zoom-in" data-aos-delay="150">
+         <h3>where to</h3>
+         <input type="text" placeholder="Place name">
+       </div>
+       <div class="book-son" data-aos="zoom-in" data-aos-delay="300">
+        <h3>when ?</h3>
+        <input type="datetime-local">
+      </div>
+      <div class="book-son" data-aos="zoom-in" data-aos-delay="450">
+        <h3>how many</h3>
+        <input type="text" placeholder="number of tourists">
+      </div>
+
+      <div class="button" data-aos="zoom-in" data-aos-delay="600">
+        <button>Find Now</button>
+      </div>
+     </div>
+
+   </section>  
+ <!-- book section end -->
+
+ <!--  about section start -->
+  <section class=" container" id="about">
+    <div class="about-parent" data-aos="fade-up-right" data-aos-delay="300">
+      <div class=" about-video">
+        <video src="./resources/img/about-vid-1.mp4" muted autoplay loop class="video"></video>
+         <div class="control">
+           <span class="control-btn" data-src="./resources/img/about-vid-1.mp4"></span>
+           <span class="control-btn" data-src="./resources/img/about-vid-2.mp4"></span>
+           <span class="control-btn" data-src="./resources/img/about-vid-3.mp4"></span>
+         </div>
+      </div>
+      <div class="about-son" data-aos="fade-up-left" data-aos-delay="300">
+        <h4>why choose us </h4>
+        <h2>nature's majesty awaits you</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse possimus quae iste delectus debitis temporibus quod cumque veniam asperiores dicta? Similique deleniti tempore dignissimos expedita unde quidem quas iure atque.</p>
+        <div class="button">
+          <button>Read More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- about section end  -->
+
+ <!--  destination section start -->
+   <section class="container" id="destination">
+     <div class="destination">
+       <h1>our destination</h1>
+       <p>make your's destination</p>
+     </div>
+     <div class="destination-parent">
+       <div class="destination-son" data-aos="fade-up" data-aos-delay="150">
+         <img src="./resources/img/des-1.jpg" alt="">
+         <div class="destination-text">
+         <h1>tours & travel</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Quaerat quos.</p>
+         <a href="#">read more <i class="fas fa-angle-right"></i></a>
+ </div>
+       </div>
+       <div class="destination-son" data-aos="fade-up" data-aos-delay="300">
+        <img src="./resources/img/des-2.jpg" alt="">
+        <div class="destination-text">
+        <h1>tours & travel</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Quaerat quos.</p>
+        <a href="#">read more <i class="fas fa-angle-right"></i></a>
+</div>
+      </div>
+      <div class="destination-son" data-aos="fade-up" data-aos-delay="450">
+        <img src="./resources/img/des-3.jpg" alt="">
+        <div class="destination-text">
+        <h1>tours & travel</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Quaerat quos.</p>
+        <a href="#">read more <i class="fas fa-angle-right"></i></a>
+</div>
+      </div>
+      <div class="destination-son" data-aos="fade-up" data-aos-delay="600">
+        <img src="./resources/img/des-4.jpg" alt="">
+        <div class="destination-text">
+        <h1>tours & travel</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Quaerat quos.</p>
+        <a href="#">read more <i class="fas fa-angle-right"></i></a>
+</div>
+      </div>
+      <div class="destination-son" data-aos="fade-up" data-aos-delay="750">
+        <img src="./resources/img/des-5.jpg" alt="">
+        <div class="destination-text">
+        <h1>tours & travel</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Quaerat quos.</p>
+        <a href="#">read more <i class="fas fa-angle-right"></i></a>
+</div>
+      </div>
+      <div class="destination-son" data-aos="fade-up" data-aos-delay="900">
+        <img src="./resources/img/des-6.jpg" alt="">
+        <div class="destination-text">
+        <h1>tours & travel</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Quaerat quos.</p>
+        <a href="#">read more <i class="fas fa-angle-right"></i></a>
+</div>
+      </div>
+      <div class="destination-son" data-aos="fade-up" data-aos-delay="1150">
+        <img src="./resources/img/des-7.jpg" alt="">
+        <div class="destination-text">
+        <h1>tours & travel</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Quaerat quos.</p>
+        <a href="#">read more <i class="fas fa-angle-right"></i></a>
+</div>
+      </div>
+      <div class="destination-son" data-aos="fade-up" data-aos-delay="1300">
+        <img src="./resources/img/des-8.jpg" alt="">
+        <div class="destination-text">
+        <h1>tours & travel</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Quaerat quos.</p>
+        <a href="#">read more <i class="fas fa-angle-right"></i></a>
+</div>
+      </div>
+
+     </div>
+   </section>
+ <!-- destination section end -->
+
+ <!-- services section start -->
+<section class="container" id="gallery">
+ <div class="destination">
+  <h1>our gallery</h1>
+  <p>we record memories</p>
+</div>
+  <div class="service-parent">
+    <div class="service-son"data-aos="zoom-in-up" data-aos-delay="150">
+      <div class="service">
+        <i class="fas fa-globe"></i>
+        <h4>worldwide</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, sapiente aperiam doloribus hic, quo suscipit vitae beatae magni.</p>
+      </div>
+    </div>
+    <div class="service-son"data-aos="zoom-in-up" data-aos-delay="300">
+      <div class="service">
+      <i class="fas fa-hiking"></i>
+      <h4>adventures</h4>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, sapiente aperiam doloribus hic, quo suscipit vitae beatae magni.</p>
+     </div>
+   </div>
+
+    <div class="service-son"data-aos="zoom-in-up" data-aos-delay="450">
+      <div class="service">
+      <i class="fas fa-utensils"></i>
+      <h4>food & drinks</h4>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, sapiente aperiam doloribus hic, quo suscipit vitae beatae magni.</p>
+      </div>
+   </div>
+    <div class="service-son"data-aos="zoom-in-up" data-aos-delay="600">
+      <div class="service">
+      <i class="fas fa-hotel"></i>
+      <h4>affordable hotels</h4>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, sapiente aperiam doloribus hic, quo suscipit vitae beatae magni.</p>
+     </div> 
+ </div>
+    <div class="service-son"data-aos="zoom-in-up" data-aos-delay="750">
+      <div class="service">
+      <i class="fas fa-wallet"></i>
+      <h4>affordable price</h4>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, sapiente aperiam doloribus hic, quo suscipit vitae beatae magni.</p>
+      </div>
+   </div>
+    <div class="service-son"data-aos="zoom-in-up" data-aos-delay="900">
+      <div class="service">
+      <i class="fas fa-headset"></i>
+        <h4>24/7 support</h4>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, sapiente aperiam doloribus hic, quo suscipit vitae beatae magni.</p>
+      </div>
+   </div> 
+  </div>
+</section>
+<!-- services section end -->
+
+<!-- gallery section start -->
+<section class="container" id="services">
+  <div class="destination">
+    <h1>our services</h1>
+    <p>countless experience</p>
+  </div>
+  <div class="gallery-parent">
+    <div class="gallery-son"data-aos="zoom-in-up" data-aos-delay="150">
+      <img src="./resources/img/gallery-img-1.jpg" alt="">
+      <h3>travel spot</h3>
+      <h2>iceland</h2>
+    </div>
+    <div class="gallery-son"data-aos="zoom-in-up" data-aos-delay="300">
+      <img src="./resources/img/gallery-img-4.jpg" alt="">
+      <h3>travel spot</h3>
+      <h2>australia</h2>
+    </div>
+    <div class="gallery-son"data-aos="zoom-in-up" data-aos-delay="450">
+      <img src="./resources/img/gallery-img-7.jpg" alt="">
+      <h3>travel spot</h3>
+      <h2>india</h2>
+    </div>
+    <div class="gallery-son"data-aos="zoom-in-up" data-aos-delay="150">
+      <img src="./resources/img/gallery-img-2.jpg" alt="">
+      <h3>travel spot</h3>
+      <h2>maldives</h2>
+    </div>
+    <div class="gallery-son"data-aos="zoom-in-up" data-aos-delay="300">
+      <img src="./resources/img/gallery-img-5.jpg" alt="">
+      <h3>travel spot</h3>
+      <h2>thailand</h2>
+    </div>
+    <div class="gallery-son"data-aos="zoom-in-up" data-aos-delay="450">
+      <img src="./resources/img/gallery-img-8.jpg" alt="">
+      <h3>travel spot</h3>
+      <h2>greenland</h2>
+    </div>
+    <div class="gallery-son"data-aos="zoom-in-up" data-aos-delay="150">
+      <img src="./resources/img/gallery-img-3.jpg" alt="">
+      <h3>travel spot</h3>
+      <h2>alaska</h2>
+    </div>
+    <div class="gallery-son"data-aos="zoom-in-up" data-aos-delay="300">
+      <img src="./resources/img/gallery-img-6.jpg" alt="">
+      <h3>travel spot</h3>
+      <h2>iceland</h2>
+    </div>
+    <div class="gallery-son"data-aos="zoom-in-up" data-aos-delay="450">
+      <img src="./resources/img/gallery-img-9.jpg" alt="">
+      <h3>travel spot</h3>
+      <h2>greenland</h2>
+    </div>
+  </div>
+</section>
+<!-- gallery section end -->
+
+<!--  blogs section start --> 
+<section class="container" id="testimonials">
+  <div class="blog-parent">
+    <div class="blog-son"data-aos="fade-right" data-aos-delay="300">
+      <h3>testimonials</h3>
+      <h1>good news from our clients</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis atque labore odio assumenda ex, quia repudiandae eos nam. Necessitatibus optio esse a quasi nobis quisquam eius repellat maxime itaque soluta?</p>
+    </div>
+
+    <div class="blog-review">
+      <div class="review-parent"data-aos="fade-left" data-aos-delay="600">
+        <div class="review-son">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quos aliquam.</p>
+          <img src="./resources/img/pic-1.png" alt="">
+          <div class="review-text">
+            <h3>john doe</h3>
+            <h4>designer</h4>
+          </div>
+         </div>
+         <div class="review-son">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quos aliquam.</p>
+          <img src="./resources/img/pic-2.png" alt="">
+          <div class="review-text">
+            <h3>john doe</h3>
+            <h4>designer</h4>
+          </div>
+         </div>
+         <div class="review-son">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quos aliquam.</p>
+          <img src="./resources/img/pic-3.png" alt="">
+          <div class="review-text">
+            <h3>john doe</h3>
+            <h4>designer</h4>
+          </div>
+         </div>
+         <div class="review-son">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quos aliquam.</p>
+          <img src="./resources/img/pic-4.png" alt="">
+          <div class="review-text">
+            <h3>john doe</h3>
+            <h4>designer</h4>
+          </div>
+         </div>
+
+      </div>
+  </div> 
+
+</div>
+</section>
+<!--  blogs section end -->
+
+<!-- posts section start -->
+<!-- <section class="container" id="blogs7. -->
+  <div class="destination">
+    <h1>blogs & posts</h1>
+    <p>we untold stories</p>
+  </div>
+  <div class="post-parent">
+    <div class="post-son"data-aos="fade-up" data-aos-delay = "150">
+       <img src="./resources/img/blog-1.jpg" alt="">
+       <h1>life is a journey,not a destination</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolore aperiam.</p>
+       <div class="post-icon">
+        <a href="#"><i class="fas fa-clock"></i> 21st may, 2021</a>
+        <a href="#"><i class="fas fa-user"></i> by admin</a>
+       </div>
+    </div>
+    <div class="post-son"data-aos="fade-up" data-aos-delay = "300">
+      <img src="./resources/img/blog-2.jpg" alt="">
+      <h1>life is a journey,not a destination</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolore aperiam.</p>
+      <div class="post-icon">
+       <a href="#"><i class="fas fa-clock"></i> 21st may, 2021</a>
+       <a href="#"><i class="fas fa-user"></i> by admin</a>
+      </div>
+   </div>
+   <div class="post-son"data-aos="fade-up" data-aos-delay = "450">
+    <img src="./resources/img/blog-3.jpg" alt="">
+    <h1>life is a journey,not a destination</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolore aperiam.</p>
+    <div class="post-icon">
+     <a href="#"><i class="fas fa-clock"></i> 21st may, 2021</a>
+     <a href="#"><i class="fas fa-user"></i> by admin</a>
+    </div>
+ </div>
+
+
+  </div>
+</section>
+<!-- posts section end -->
+
+<!-- banner section start -->
+<section class="banner" id="banner">
+  <div class="banner-parent"data-aos="zoom-in-up" data-aos-delay="300">
+    <h3>start your adventures</h3>
+    <h1>Let's Explore This World</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatum praesentium amet quibusdam quam officia suscipit odio.</p>
+    <div class="button">
+      <button>Book Now</button>
+    </div>
+  </div>
+</section>
+<!-- banner section end -->
+
+<!-- footer section start -->
+<section class="container" id="footer">
+  <div class="footer-parent">
+    
+    <div class="plane">
+      <div class="plane-son"data-aos="fade-up"data-aos-delay = "150">
+        <a href="#"><i class="fas fa-paper-plane"></i></a>
+        <h1>Travel</h1> 
+      </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam. </p>
+ 
+      <div class="plane-icon"data-aos="fade-up"data-aos-delay = "300">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+  </div>
+
+    <div class="quick"data-aos="fade-up"data-aos-delay = "450">
+     <h1>quick links</h1>
+     <a href="#home">home </a>
+     <a href="#about">about </a>
+     <a href="#destination">destination </a>
+     <a href="#services">services </a>
+     <a href="#gallery">gallery </a>
+     <a href="#blogs">blogs </a>
+    </div>
+    <div class="address"data-aos="fade-up"data-aos-delay = "600">
+      <h1>our address</h1>
+      <a href="#"> <i class="fas fa-map"></i> mumbai, india </a>
+      <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+      <a href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
+      <a href="#"><i class="fas fa-clock"></i> 7:00am - 10:00pm </a>
+    </div>
+
+    <div class="letter"data-aos="fade-up"data-aos-delay = "650">
+      <h1>newsletter</h1>
+      <p>subscribe for latest updates</p>
+      <input type="text" placeholder="enter your email">
+      <div class="button">
+        <button>Subscribe</button>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="created">
+    <h1>created by <label>mohamed diab</label>| all rights reserved</h1>
+  </div>
+</section>
+<!-- footer section end -->
+
+    <script src="./resources/js/jquery-3.6.0.min.js"></script>
+
+    <!-- link Aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration:800,
+        offset:150,
+      });
+    </script>
+    <!-- link js -->
+    <script src="./resources/js/script.js"></script>
+    
+
+</body>
+</html>
